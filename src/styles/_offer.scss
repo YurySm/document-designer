@@ -1,0 +1,119 @@
+.offer {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        &_logo {
+            margin: 35px 0 0 35px;
+            max-width: 150px;
+            height: auto;
+        }
+
+        &_requisites {
+            width: 50%;
+            & textarea {
+                width: 100%;
+                resize: none;
+                line-height: 1.5;
+                font-size: 18px;
+                overflow: hidden;
+                min-height: 165px;
+            }
+        }
+    }
+
+    &__place {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+
+        &>input {
+            border: none;
+            line-height: 1.5;
+            font-size: 18px;
+        }
+    }
+
+    &__plan,
+    &__guarantees {
+        & textarea {
+            width: 100%;
+            resize: none;
+            line-height: 1.5;
+            font-size: 18px;
+            overflow: hidden;
+        }
+    }
+
+    &__guarantees {
+        & textarea {
+            margin-right: 10px;
+        }
+    }
+
+    &__title {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    &__text {
+        text-indent: 30px;
+        margin-top: 20px;
+    }
+
+    &__guarantees,
+    &__plan {
+        margin-top: 30px;
+
+        &_wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &_title {
+            padding-left: 20px;
+            font-size: 1.5em;
+        }
+
+        &_inputs {
+            margin-right: 40px;
+
+            & input {
+                font-size: 18px;
+                border-bottom: 1px solid #000;
+
+                &[type="text"] {
+                    width: 400px;
+                }
+
+                &:not(:last-child) {
+                    margin-right: 10px;
+                }
+            }
+
+            &>textarea {
+                overflow: hidden;
+                flex: 1;
+                font-size: 18px;
+                resize: none;
+            }
+        }
+    }
+}
+
+.persone {
+    &__wrapper {
+      & textarea {
+        resize: none;
+        overflow: hidden;
+      }
+    }
+    &__divider {
+      width: 150px;
+      margin: 0 50px;
+      flex: 3 0 auto;
+      border-bottom: 1px solid #000;
+    }
+  }
+  

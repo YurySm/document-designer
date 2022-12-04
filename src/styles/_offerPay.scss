@@ -1,0 +1,13 @@
+.offer-pay {
+    &__requisites {
+        width: 50%;
+        & > textarea {
+            resize: none;
+            overflow: hidden;
+        }
+    }
+    &__text {
+        text-indent: 30px;
+        margin-top: 20px;
+    }
+}

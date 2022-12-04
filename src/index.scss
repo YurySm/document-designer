@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./static/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+
+.document {
+  padding: 50px 0;
+  min-height: calc(100vh - 63px);
+  height: 100%;
+  background: rgb(248, 249, 250);
+  background: #6495ed;
+  &.tax {
+    & .document__wrapper {
+      max-width: 950px;
+      padding: 30px 40px 40px;
+    }
+  }
+
+  // background: linear-gradient(160deg, rgba(248,249,250,1) 0%, rgba(255,193,7,0.6362920168067228) 100%);
+  &__wrapper {
+    max-width: 750px;
+    margin: 0px auto;
+    padding: 30px 10px 40px 40px;
+    background: #fff;
+  }
+}
+
+@import 'styles/_reset';
+@import "~bootstrap/scss/bootstrap";
+
+@import 'styles/_mainPage';
+@import 'styles/_offer';
+@import 'styles/_offerPay';

@@ -1,0 +1,8 @@
+.main-page {
+    height: 100vh;
+    background: rgb(102,16,242);
+    background: linear-gradient(160deg, rgba(102,16,242,0.788953081232493) 0%, rgba(13,110,253,0.7077205882352942) 48%, rgba(13,202,240,1) 100%);
+    &__title {
+        color: #fff;
+    }
+}
